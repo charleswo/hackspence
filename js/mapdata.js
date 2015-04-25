@@ -8,6 +8,15 @@ L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
   id: 'examples.map-i875mjb7'
 }).addTo(map);
 
+
+var shelters = TAFFY([{lat:"",long:"",name:"",disp:""},{lat:"",long:"",name:"",disp:""},{lat:"",long:"",name:"",disp:""}]);
+
+function make_marker(lat,long,name,disp){
+  L.marker([lat, long]).addTo(map)
+    .bindPopup("<b>" + name + "</b><br />" + disp).openPopup();
+  }
+
+
     L.marker([40.7840468, -73.9570915]).addTo(map)
             .bindPopup("<b>current location</b><br />you are here.").openPopup();
 
