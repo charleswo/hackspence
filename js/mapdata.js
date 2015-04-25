@@ -9,7 +9,7 @@ L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 
-var shelters = TAFFY([{lat:"",long:"",name:"",disp:""},{lat:"",long:"",name:"",disp:""},{lat:"",long:"",name:"",disp:""}]);
+var shelters = ([{lat:"",long:"",name:"",disp:""},{lat:"",long:"",name:"",disp:""},{lat:"",long:"",name:"",disp:""}]);
 
 function make_marker(lat,long,name,disp){
   L.marker([lat, long]).addTo(map)
@@ -21,14 +21,14 @@ function make_marker(lat,long,name,disp){
             .bindPopup("<b>current location</b><br />you are here.").openPopup();
 
     L.marker([40.77947229999999, -73.95479219999999]).addTo(map)
-            .bindPopup("<b>Neighborhood Coalition-Shelter</b><br />157 E 86th St<br> (212) 249-3595").openPopup();
+            .bindPopup("<b>Neighborhood Coalition-Shelter</b><br >157 E 86th St<br> (212) 249-3595").openPopup();
 
 
     L.marker([40.7653925, -73.98903860000001]).addTo(map)
-            .bindPopup("<b>Covenant House</b><br />*what they need* <br> (212) 247-5670").openPopup();
+            .bindPopup("<b>Covenant House</b><br > 427 W 52nd St<br/> (212) 247-5670").openPopup();
 
     L.marker([40.7629981, -73.99221299999999]).addTo(map)
-            .bindPopup("<b> Safe Haven</b> <br>*What they need* <br> (212) 246-8321").openPopup();
+            .bindPopup("<b> Safe Haven</b><br >448 W 48th St<br> (212) 246-8321").openPopup();
 
 L.circle([40.7840468, -73.9570915], 500, {
     color: 'red',
