@@ -37,7 +37,10 @@ function make_marker(lat,long,name,disp){
                             .bindPopup("<b> New York City Rescue Mission</b><br >90 Lafayette St<br> (212) 226-6214").openPopup();
 
     L.marker([40.7483775, -73.9897302]).addTo(map)
-                                                    .bindPopup("<b> Women In Need Inc</b><br >115 W 31st St<br> (212) 695-4758").openPopup();
+                            .bindPopup("<b> Women In Need Inc</b><br >115 W 31st St<br> (212) 695-4758").openPopup();
+
+    L.marker([40.786508, -73.97072400000002]).addTo(map)
+                            .bindPopup("<b>Dorot</b><br >44 W 87th St<br> (212) 580-0001").openPopup();
 
 L.circle([40.7840468, -73.9570915], 500, {
     color: 'red',
