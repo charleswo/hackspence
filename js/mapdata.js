@@ -21,7 +21,7 @@ function make_marker(lat,long,name,disp1,disp2){
     make_marker(40.723658, -73.984127, "Nazareth Housing", "206 E 4th St","(212) 477-7017");
     make_marker(40.7175359, -74.00162109999997, "New York City Rescue Mission", "90 Lafayette St","(212) 226-6214");
     make_marker(40.7483775, -73.9897302, "Women In Need Inc", "115 W 31st St","(212) 695-4758");
-<<<<<<< HEAD
+
     make_marker(40.745874, -73.97099800000001, "Bideawee", "410 E 38th St","(866) 262-8133");
     make_marker(40.74057699999999, -73.97477099999998, "HRA Men's Shelter", "400 E 30th St","(718) 557-1399");
     make_marker(40.7424195, -73.97808359999999, "Antonio Olivieri Center", "257 W 30th St","(212) 947-3211");
@@ -33,10 +33,7 @@ function make_marker(lat,long,name,disp1,disp2){
     make_marker(40.812086, -73.94280300000003, "Aguila, Inc.", "433 Malcolm X Blvd","(212) 234-2402");
     make_marker(40.8095323, -73.94220419999999, "Convent Family Living Center", "34 W 129th St","(212) 866-7816");
     make_marker(40.802995, -73.93665299999998, "Palladia, Inc - Home Base", "2276 3rd Ave","(917) 492-1019");
-=======
-    make_marker(40.786508, -73.97072400000002, "Dorot", "44 W 87th St","(212) 580-0001");
 
->>>>>>> origin/master
 
 L.circle([40.7840468, -73.9570915], 500, {
     color: 'red',
