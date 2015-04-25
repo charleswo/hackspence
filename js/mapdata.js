@@ -8,8 +8,18 @@ L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
   id: 'examples.map-i875mjb7'
 }).addTo(map);
 
-L.marker([40.7840468, -73.9570915]).addTo(map)
-    .bindPopup("<b>current location</b><br />you are here.").openPopup();
+    L.marker([40.7840468, -73.9570915]).addTo(map)
+            .bindPopup("<b>current location</b><br />you are here.").openPopup();
+
+    L.marker([40.77947229999999, -73.95479219999999]).addTo(map)
+            .bindPopup("<b>Neighborhood Coalition-Shelter</b><br />*what they need*.").openPopup();
+
+
+    L.marker([40.7653925, -73.98903860000001]).addTo(map)
+            .bindPopup("<b>Covenant House</b><br />*what they need*.").openPopup();
+
+    L.marker([40.7629981, -73.99221299999999]).addTo(map)
+            .bindPopup("<b> Safe Haven</b> <br>*What they need* <br> (212) 246-8321").openPopup();
 
 L.circle([40.7840468, -73.9570915], 500, {
     color: 'red',
