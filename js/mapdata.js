@@ -30,6 +30,15 @@ function make_marker(lat,long,name,disp){
     L.marker([40.7629981, -73.99221299999999]).addTo(map)
             .bindPopup("<b> Safe Haven</b><br >448 W 48th St<br> (212) 246-8321").openPopup();
 
+            L.marker([40.723658, -73.984127]).addTo(map)
+                    .bindPopup("<b> Nazareth Housing</b><br >206 E 4th St<br> (212) 477-7017").openPopup();
+
+    L.marker([40.7175359, -74.00162109999997]).addTo(map)
+                            .bindPopup("<b> New York City Rescue Mission</b><br >90 Lafayette St<br> (212) 226-6214").openPopup();
+
+    L.marker([40.7483775, -73.9897302]).addTo(map)
+                                                    .bindPopup("<b> Women In Need Inc</b><br >115 W 31st St<br> (212) 695-4758").openPopup();
+
 L.circle([40.7840468, -73.9570915], 500, {
     color: 'red',
     fillColor: '#f03',
